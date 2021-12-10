@@ -58,6 +58,9 @@ h1 {
   margin-left: 5rem;
 }
 
+.title {
+  color: #87629a;
+}
 .hero {
   padding: 100px 0;
   background-color: #23424a;
@@ -86,4 +89,9 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.blue-back {
+  background-color: #38cfd9;
+  color: #fff;
 }
