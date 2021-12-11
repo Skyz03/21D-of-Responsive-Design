@@ -1,24 +1,3 @@
-/* 
-////// For this challenge ///////
-
-- You will have to modify the HTML
-
-- You can add new classes in the HTML
-  if you need to
-
-// Requirements
-1. The headings in the first row must be
-   a different color
-2. The two .col at the bottom must go next
-   to one another
-3. The section at the bottom should have
-   a dark background color and a different
-   color of text
-4. I've removed the "gap" that I created,
-   so you'll have to add it back in
-
-   */
-
 *,
 *::before,
 *::after {
@@ -44,7 +23,6 @@ h1 {
 .row {
   /* display: flex => flex container */
   display: flex;
-  padding: 2rem;
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -52,7 +30,6 @@ h1 {
 .col {
   /* these are now flex items */
   width: 100%;
-  text-align: center;
 }
 
 .col + .col {
@@ -76,6 +53,24 @@ h1 {
   margin-bottom: 3em;
 }
 
+.features {
+  padding: 3em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.quality {
+  background-color: #38cfd9;
+  color: #fff;
+  text-align: center;
+  padding: 3em;
+  letter-spacing: 1px;
+}
+
+.quality h2 {
+  color: blue;
+}
+
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -90,12 +85,4 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
-}
-
-.blue-back {
-  width: 100%;
-  padding: 2rem;
-  background-color: #38cfd9;
-  color: #fff;
-  margin-top: 3rem;
 }
