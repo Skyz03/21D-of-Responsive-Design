@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1128px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Sections */
+/* HERO */
+.hero {
+  font-size: 1.6rem;
+  background-color: #f3eed9;
+  text-align: center;
+  padding: 5em;
+}
+.hero__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.hero__title {
+  max-width: 500px;
+  margin: 0.5em auto 0;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  color: #824936;
+}
+
+/* FEATURES */
+.features {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
