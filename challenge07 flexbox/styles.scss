@@ -27,6 +27,15 @@ body {
   margin: 0 auto;
 }
 
+.heading--primary {
+  font-family: $font-secondary;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 /* Sections */
 
 /* HERO */
@@ -56,4 +65,6 @@ body {
 /* FEATURES */
 .features {
   text-align: center;
+  padding: 5em;
+  font-size: 1.6rem;
 }

@@ -17,6 +17,15 @@ body {
   margin: 0 auto;
 }
 
+.heading--primary {
+  font-family: "Playfair Display", serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 /* Sections */
 /* HERO */
 .hero {
@@ -43,4 +52,6 @@ body {
 /* FEATURES */
 .features {
   text-align: center;
+  padding: 5em;
+  font-size: 1.6rem;
 }/*# sourceMappingURL=styles.css.map */
