@@ -87,4 +87,43 @@ body {
 .cta__image {
   border: none;
   margin-right: 2em;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 3em 0 3em;
+  }
+
+  .features {
+    padding: 3em 0 3em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row > div {
+    text-align: center;
+    margin-top: 2em;
+    padding: 0 1em;
+  }
+
+  .promote {
+    padding: 3em 0 3em;
+  }
+  .promote__image img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .cta {
+    padding: 3em 0 3em;
+  }
+  .cta__image {
+    margin: 0;
+  }
+  .cta__image img {
+    max-width: 300px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
