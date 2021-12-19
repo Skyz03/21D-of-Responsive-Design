@@ -19,11 +19,16 @@ body {
 
 .heading--primary {
   font-family: "Playfair Display", serif;
+  margin-bottom: 1.5rem;
 }
 
 .row {
   display: flex;
   justify-content: center;
+}
+
+.co-brown {
+  color: #824936;
 }
 
 /* Sections */
@@ -54,4 +59,32 @@ body {
   text-align: center;
   padding: 5em;
   font-size: 1.6rem;
+}
+.features__one, .features__two {
+  text-align: left;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  color: gray;
+  line-height: 1.5;
+}
+.features__one {
+  margin-right: 1.5rem;
+}
+
+.promote {
+  font-size: 1.6rem;
+  background-color: #222c2a;
+  color: #fff;
+  padding: 3em;
+}
+
+.cta {
+  font-size: 1.6rem;
+  background-color: #824936;
+  color: #fff;
+  padding: 3em;
+}
+.cta__image {
+  border: none;
+  margin-right: 2em;
 }/*# sourceMappingURL=styles.css.map */

@@ -29,11 +29,16 @@ body {
 
 .heading--primary {
   font-family: $font-secondary;
+  margin-bottom: 1.5rem;
 }
 
 .row {
   display: flex;
   justify-content: center;
+}
+
+.co-brown {
+  color: $primary-brown;
 }
 
 /* Sections */
@@ -67,4 +72,38 @@ body {
   text-align: center;
   padding: 5em;
   font-size: 1.6rem;
+
+  &__one,
+  &__two {
+    text-align: left;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    color: gray;
+    line-height: 1.5;
+  }
+
+  &__one {
+    margin-right: 1.5rem;
+  }
+}
+
+// PROMOTE
+.promote {
+  font-size: 1.6rem;
+  background-color: $primary-black;
+  color: #fff;
+  padding: 3em;
+}
+
+// CTA
+.cta {
+  font-size: 1.6rem;
+  background-color: $primary-brown;
+  color: #fff;
+  padding: 3em;
+
+  &__image {
+    border: none;
+    margin-right: 2em;
+  }
 }
