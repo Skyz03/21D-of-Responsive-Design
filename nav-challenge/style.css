@@ -196,6 +196,7 @@ header {
   }
 
   .nav {
+    font-size: 0.7rem;
     visibility: visible;
     display: flex;
     height: auto;
@@ -245,5 +246,11 @@ header {
 
   .sidebar {
     width: 32%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nav {
+    font-size: 1rem;
   }
 }
