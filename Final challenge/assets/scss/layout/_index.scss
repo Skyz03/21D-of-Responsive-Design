@@ -21,6 +21,11 @@ a {
   opacity: 0.7;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .row {
   @include flexCenter;
   padding: 7em 5em;
@@ -51,8 +56,10 @@ a {
   }
 
   &__icon {
+    font-family: $font-primary;
     color: $color-white;
     font-size: 1.5rem;
+    letter-spacing: 0.075em;
   }
 
   &__item {
@@ -170,6 +177,7 @@ a {
     &--title {
       font-size: 1.5rem;
       font-weight: 600;
+      margin-bottom: 0.5em;
     }
   }
 
@@ -212,5 +220,67 @@ a {
   &__text {
     line-height: 1.7;
     margin-top: 2em;
+  }
+}
+
+@media (max-width: 993px) {
+  .footer {
+    &__item:first-child {
+      max-width: 400px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .btn-primary {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__description {
+      font-size: 0.9rem;
+    }
+  }
+
+  .features {
+    .row {
+      flex-direction: column;
+    }
+
+    .row > div {
+      margin: 1.5em 0;
+      max-width: 600px;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .nav {
+    &__item {
+      font-size: 0.8rem;
+    }
+  }
+
+  .article {
+    .row {
+      flex-direction: column;
+    }
+
+    &__img {
+      height: auto;
+    }
+
+    &__table {
+      max-width: 100%;
+      align-self: inherit;
+    }
+
+    &__box {
+      margin-left: 1em;
+    }
   }
 }
