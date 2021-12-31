@@ -74,7 +74,7 @@ body {
 
 .article__content {
   max-width: 60%;
-  width: 50%;
+  width: 100%;
 }
 .article__content p {
   line-height: 1.5;
@@ -96,6 +96,8 @@ body {
 }
 .article__table {
   align-self: flex-start;
+  max-width: 40%;
+  width: 100%;
 }
 .article__box {
   background-color: #2e323f;
@@ -103,7 +105,8 @@ body {
   margin: 1em 0;
   padding: 3em 2em;
   text-align: center;
-  width: 40%;
+  width: 80%;
+  margin-left: 5em;
 }
 .article__box--title {
   font-size: 1.5rem;
