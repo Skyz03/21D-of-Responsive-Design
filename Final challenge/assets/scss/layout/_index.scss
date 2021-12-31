@@ -10,6 +10,17 @@ body {
   font-family: $font-primary;
 }
 
+li {
+  list-style: none;
+  margin: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+  opacity: 0.7;
+}
+
 .row {
   @include flexCenter;
   padding: 7em 5em;
@@ -28,6 +39,41 @@ body {
   border: none;
   font-size: 1.3rem;
   opacity: 1;
+}
+
+// Header Section
+.nav {
+  background-color: $color-blue1;
+
+  .row {
+    padding: 1em 5em;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    color: $color-white;
+    font-size: 1.5rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      margin: 0 1em;
+      opacity: 1;
+      text-transform: uppercase;
+      font-family: $font-secondary;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  .sign-up {
+    padding: 0.5em 1em;
+    background-color: $color-brown;
+    border-radius: 55px;
+  }
 }
 
 // Hero Section
@@ -141,17 +187,6 @@ body {
   .row {
     padding: 0;
     justify-content: space-between;
-  }
-
-  li {
-    list-style: none;
-    margin: 0.5em 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: $color-white;
-    opacity: 0.7;
   }
 
   &__title {
