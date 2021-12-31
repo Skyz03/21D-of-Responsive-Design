@@ -131,3 +131,51 @@ body {
     font-size: 1rem;
   }
 }
+
+// Footer Section
+.footer {
+  background-color: $color-blue1;
+  color: $color-white;
+  padding: 7em 5em;
+
+  .row {
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+    margin: 0.5em 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-white;
+    opacity: 0.7;
+  }
+
+  &__title {
+    font-family: $font-secondary;
+    font-size: 3rem;
+    margin: 0 auto 1.5em;
+  }
+
+  &__item {
+    align-self: flex-start;
+  }
+
+  &__item:first-child {
+    max-width: 500px;
+  }
+
+  &__heading {
+    color: $color-brown;
+    font-family: $font-secondary;
+    letter-spacing: 0.05em;
+  }
+
+  &__text {
+    line-height: 1.7;
+    margin-top: 2em;
+  }
+}
