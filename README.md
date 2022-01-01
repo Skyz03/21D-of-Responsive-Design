@@ -8,18 +8,17 @@ But this might cause the losing the content which can be important.
 The chlid width is always the width of that % in relation with parent.
  
 Its good idea to avoid the height... 
-use padding more than height for more background.. 
-like padding 5em or % or rem.
+Use padding more than height for more background..like padding 5em or % or rem.
 
-The power of relative units: 
+# Day 2
+## The power of relative units:
 
-Day 2
 em: its compounds with the parent elements and multiplies along the way
-like child * parent * parent/body 
+like ```child * parent * parent/body``` 
 it multiples by parent if we have set there.
 
 rem: sticks to the root elements, like 
-body {
+```body {
 font size: 16px
 }
 
@@ -30,7 +29,7 @@ font size: 2rem;	it equals 32px
 child 2 {
 font size: 3rem;	it equalts 16 * 3 in rems
 }			but in ems its 3 * 2 * 16 = 6 * 16 
-
+```
 So, thats the thing to consider.
 
 Day 3
