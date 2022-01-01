@@ -58,7 +58,8 @@ Because of the ```compound effect``` on the em's as they look towards the parent
 Works for parents and sibligns where siblings takes its and * parents.
 
 
-```:root{
+```
+:root{
 font-size: 10px;
 }
 ```
@@ -84,14 +85,16 @@ flex-items = smallest possible size. either use ```width 100% or height - 100%``
 
 How to do spacing in the flex-item = 
 
-```gap: 100px;
+```
+gap: 100px;
 ```
 
 Or, we can use also use: 
 
 Combinators: select the adjecent siblings
 
-```col + col {
+```
+col + col {
 	margin-left: 10px;
 }
 ```
@@ -118,7 +121,8 @@ but when 100% it will make it equal for both the element.
 
 ## How to make image responsive:
 
-```img {
+```
+img {
 max-width: 100%
 }
 ```
