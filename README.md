@@ -145,3 +145,8 @@ Having less breakpoint is good plus the more the harder to maintain.
 The importance of meta tag and initial scale is 1.0 
 
 ``` <meta name="viewport" content="width=device-width, initial-scale=1.0">```
+
+# Day 18/19/20
+
+Completed other Flex's challenges.
+
